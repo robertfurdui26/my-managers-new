@@ -1,12 +1,12 @@
 import React from "react";
-import round from "../images/rrrrr.jpg";
+import images from "../images/rrrrr.jpg";
 
 export default function Profile(props) {
   return (
     <div>
       <div class="card-container">
         <span class="pro">PRO</span>
-        <img class="round" src={round} alt="user" />
+        <img class="round" src={props.item.img} alt={props.item.name} />
         <div className="property">
           <h3>{props.item.name}</h3>
           <h6> {props.item.location}</h6>

@@ -7,6 +7,7 @@ const cards = [
     salary: "Salary: $5000/month",
     job: "Job: Enginner",
     email: "Email: ricky_park@yahoo.com",
+    img: "./images/rrrrr.jpg",
   },
   {
     id: 1,
@@ -16,6 +17,7 @@ const cards = [
     salary: "Salary: $5000/month",
     job: "Job: Enginner",
     email: "Email: ricky_park@yahoo.com",
+    img: "./girl2.jpg",
   },
   {
     id: 1,

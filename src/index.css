@@ -144,11 +144,11 @@ span {
 .card-container {
   margin-top: 210px;
   margin-left: 10px;
-  background-color: rgb(69, 69, 69);
+  background-color: rgb(225, 220, 220);
   border-radius: 5px;
   box-shadow: 3px 5px 5px rgb(12, 9, 5);
 
-  color: rgb(255, 207, 149);
+  color: black;
   padding-top: 30px;
   position: relative;
   width: 350px;
@@ -209,5 +209,7 @@ span {
   background-color: grey;
   margin-top: 200px;
   margin-left: 10px;
+  color: black;
+
 
 }
