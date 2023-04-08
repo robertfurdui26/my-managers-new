@@ -1,5 +1,4 @@
 import React from "react";
-import images from "../images/rrrrr.jpg";
 
 export default function Profile(props) {
   return (
