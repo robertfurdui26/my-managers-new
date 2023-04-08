@@ -11,7 +11,7 @@
 body {
   margin: 20px;
   padding: 5px;
-  background-image: url(./images/newbackground.jpg);
+  background-image: url(./images/grey.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -111,7 +111,7 @@ span {
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
-  bottom: 0;
+  bottom: -2;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5);
   /* Black see-through */
@@ -121,6 +121,7 @@ span {
   font-size: 20px;
   padding: 20px;
   text-align: center;
+
 
 }
 
@@ -144,11 +145,11 @@ span {
 .card-container {
   margin-top: 210px;
   margin-left: 10px;
-  background-color: rgb(225, 220, 220);
+  background-color: black;
   border-radius: 5px;
   box-shadow: 3px 5px 5px rgb(12, 9, 5);
 
-  color: black;
+  color: rgb(255, 205, 144);
   padding-top: 30px;
   position: relative;
   width: 350px;
