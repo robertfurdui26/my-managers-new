@@ -7,7 +7,7 @@ const cards = [
     salary: "Salary: $5000/month",
     job: "Job: Enginner",
     email: "Email: ricky_park@yahoo.com",
-    img: "images/rrrrr.jpg",
+    img: "images/profile1.jpg",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const cards = [
     salary: "Salary: $5000/month",
     job: "Job: Enginner",
     email: "Email: ricky_park@yahoo.com",
-    img: "images/girl2.jpg",
+    img: "images/profile2.jpg",
   },
   {
     id: 3,
@@ -27,6 +27,7 @@ const cards = [
     salary: "Salary: $5000/month",
     job: "Job: Enginner",
     email: "Email: ricky_park@yahoo.com",
+    img: "images/profile3.jpg",
   },
   {
     id: 4,
@@ -36,6 +37,7 @@ const cards = [
     salary: "Salary: $5000/month",
     job: "Job: Enginner",
     email: "Email: ricky_park@yahoo.com",
+    img: "images/profile4.jpg",
   },
   {
     id: 5,
@@ -45,6 +47,7 @@ const cards = [
     salary: "Salary: $5000/month",
     job: "Job: Enginner",
     email: "Email: ricky_park@yahoo.com",
+    img: "images/profile.5.jpg",
   },
   {
     id: 6,
@@ -54,6 +57,7 @@ const cards = [
     salary: "Salary: $5000/month",
     job: "Job: Enginner",
     email: "Email: ricky_park@yahoo.com",
+    img: "images/profile.jpg",
   },
   {
     id: 7,
@@ -63,6 +67,37 @@ const cards = [
     salary: "Salary: $5000/month",
     job: "Job: Enginner",
     email: "Email: ricky_park@yahoo.com",
+    img: "images/profile4.jpg",
+  },
+  {
+    id: 8,
+    name: "Ricky Park",
+    location: " Location: America",
+    city: "City: New York",
+    salary: "Salary: $5000/month",
+    job: "Job: Enginner",
+    email: "Email: ricky_park@yahoo.com",
+    img: "images/profile4.jpg",
+  },
+  {
+    id: 9,
+    name: "Ricky Park",
+    location: " Location: America",
+    city: "City: New York",
+    salary: "Salary: $5000/month",
+    job: "Job: Enginner",
+    email: "Email: ricky_park@yahoo.com",
+    img: "images/profile4.jpg",
+  },
+  {
+    id: 10,
+    name: "Ricky Park",
+    location: " Location: America",
+    city: "City: New York",
+    salary: "Salary: $5000/month",
+    job: "Job: Enginner",
+    email: "Email: ricky_park@yahoo.com",
+    img: "images/profile4.jpg",
   },
 ];
 

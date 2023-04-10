@@ -11,7 +11,7 @@
 body {
   margin: 20px;
   padding: 5px;
-  background-image: url(./images/grey.jpg);
+  background-image: url(./grey.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -145,11 +145,11 @@ span {
 .card-container {
   margin-top: 210px;
   margin-left: 10px;
-  background-color: black;
+  background-image: url(./cardsbackground.jpg);
   border-radius: 5px;
   box-shadow: 3px 5px 5px rgb(12, 9, 5);
 
-  color: rgb(255, 205, 144);
+  color: rgb(11, 11, 10);
   padding-top: 30px;
   position: relative;
   width: 350px;
