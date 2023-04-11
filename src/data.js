@@ -47,7 +47,7 @@ const cards = [
     salary: "Salary: $5000/month",
     job: "Job: Enginner",
     email: "Email: ricky_park@yahoo.com",
-    img: "images/profile.5.jpg",
+    img: "images/profile5.jpg",
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const cards = [
     salary: "Salary: $5000/month",
     job: "Job: Enginner",
     email: "Email: ricky_park@yahoo.com",
-    img: "images/profile.jpg",
+    img: "images/profile6.jpg",
   },
   {
     id: 7,
@@ -67,7 +67,7 @@ const cards = [
     salary: "Salary: $5000/month",
     job: "Job: Enginner",
     email: "Email: ricky_park@yahoo.com",
-    img: "images/profile4.jpg",
+    img: "images/profile7.jpg",
   },
   {
     id: 8,
@@ -77,7 +77,7 @@ const cards = [
     salary: "Salary: $5000/month",
     job: "Job: Enginner",
     email: "Email: ricky_park@yahoo.com",
-    img: "images/profile4.jpg",
+    img: "images/profile8.jpg",
   },
   {
     id: 9,
@@ -87,7 +87,7 @@ const cards = [
     salary: "Salary: $5000/month",
     job: "Job: Enginner",
     email: "Email: ricky_park@yahoo.com",
-    img: "images/profile4.jpg",
+    img: "images/profile9.jpg",
   },
   {
     id: 10,
@@ -97,7 +97,7 @@ const cards = [
     salary: "Salary: $5000/month",
     job: "Job: Enginner",
     email: "Email: ricky_park@yahoo.com",
-    img: "images/profile4.jpg",
+    img: "images/profile10.jpg",
   },
 ];
 
