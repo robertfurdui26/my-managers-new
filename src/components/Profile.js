@@ -9,9 +9,9 @@ export default function Profile(props) {
         <div className="property">
           <h3>{props.item.name}</h3>
           <h6> {props.item.location}</h6>
-          <p className="props-size">{props.item.city} </p>
-          <p className="props-size">{props.item.job}</p>
-          <p className="props-size">{props.item.email}</p>
+          <h6>{props.item.city} </h6>
+          <h6>{props.item.job}</h6>
+          <h6>{props.item.email}</h6>
         </div>
       </div>
     </div>
