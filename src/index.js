@@ -1,5 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+import "./index.css";
+import "./register.css";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Home from "./components/Home";
+import Register from "./components/Register";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Register />} />
+        <Route path="/home" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);
