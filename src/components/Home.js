@@ -1,11 +1,13 @@
 import React from "react";
-import images from "../events back.jpg";
+
 import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
     <div>
-      <Link to="/">Log Out</Link>
+      <Link to="/" className="logout">
+        Log Out
+      </Link>
       <div className="nav-container">
         <nav className="navbar">
           <h2 className="manager">
