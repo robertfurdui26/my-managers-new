@@ -2,9 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 export default function Register() {
   const [usernameReg, setUsernameReg] = useState("");
+  const [passwordReg, setPasswordReg] = useState("");
 
   const register = () => {
-    Axios.post("http://localhost:3001/register", {
+    Axios.post("http://localhost:5000/register", {
       userName: usernameReg,
       password: passwordReg,
     }).then((responese) => {
@@ -17,16 +18,23 @@ export default function Register() {
       <div className="registration">
         <h1>Registration</h1>
         <label>UserName</label>
-        <input type="text" placeholder="Your name.." />
-
-        <label>Password</label>
-        <input type="text" placeholder="Password..." />
-        <button
-          className="submit"
+        <input
+          type="text"
+          placeholder="Your name.."
           onChange={(e) => {
             setUsernameReg(e.target.value);
           }}
-        >
+        />
+
+        <label>Password</label>
+        <input
+          type="text"
+          placeholder="Password..."
+          onChange={(e) => {
+            setPasswordReg(e.target.value);
+          }}
+        />
+        <button className="submit" onClick={register}>
           Register
         </button>
       </div>
